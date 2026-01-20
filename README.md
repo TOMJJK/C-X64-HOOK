@@ -21,3 +21,23 @@ C语言书写HOOK代码，实现任意位置HOOK
 #执行效果
 
 CE9打队友掉1滴血，打敌人秒杀
+
+#项目结构
+
+INJTOOL_USER_INF：驱动用户接口
+
+ProcessAPC_INJ：驱动模块
+
+ProcessAPC_INJ_DLL：注入模块
+
+#关键项目：ProcessAPC_INJ_DLL
+
+PassCE9：劫持处理函数
+
+HookCE9：劫持函数
+
+JumpFn：跳转模板
+
+...
+
+#教程已更新到B站
